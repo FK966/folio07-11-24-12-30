@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .block {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .red-box, .blue-box {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .red-box {
+            background-color: red;
+        }
+        .blue-box {
+            background-color: blue;
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bloc pour "je m'appelle mael nialon" dans un carré bleu -->
+    <div class="blue-box">
+        je m'appelle mael nialon
+    </div>
+    <div class="container">
+        <div class="block">
+            <img src="téléchargement.jpg" alt="Première image">
+        </div>
+        <div class="block">
+            <img src="chemin_de_ta_seconde_image.jpg" alt="Deuxième image">
+        </div>
+        <!-- Bloc pour BTS SIO SLAM dans un carré rouge -->
+        <div class="red-box">
+            BTS SIO SLAM
+        </div>
+    </div>
+    <a href="index2.html">retour</a>
+</body>
+</html>

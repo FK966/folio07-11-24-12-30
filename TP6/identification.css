@@ -1,0 +1,68 @@
+/* Style pour le fond de la page */
+body {
+    background-color: #f7d3e3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style pour le conteneur de la carte de connexion */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 50px; /* Ajuste cette valeur si nécessaire */
+}
+
+/* Style pour le titre */
+h1 {
+    font-size: 24px;
+    color: #b30059;
+    position: absolute;
+    top: 20px; /* Distance du haut de la page */
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style pour les boutons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+
+button.connect {
+    background-color: #b30059;
+}
+
+button.cancel {
+    background-color: #cccccc;
+    color: #333;
+}
+
+button:hover {
+    opacity: 0.9;
+}

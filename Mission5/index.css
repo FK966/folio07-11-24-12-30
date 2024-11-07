@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Fond rose pâle */
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cv-container {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ff7a7a; /* Bord rose */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-home {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn-home {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #e64545; /* Bouton rouge vif */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-home:hover {
+    background-color: #cc3d3d; /* Rouge foncé au survol */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #ff7a7a; /* Bord rose clair */
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #b83232; /* Rouge pour les titres */
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.profession {
+    color: #a82c2c; /* Rouge foncé */
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.experience-block, .experience-card, .skills li {
+    background-color: #fff;
+    border: 2px solid #ff7a7a;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card {
+    display: flex;
+    align-items: center;
+    background-color: #ffe0e0; /* Fond légèrement rosé */
+}
+
+.date-container {
+    width: 100px;
+    background-color: #ff7a7a;
+    color: #6a0000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.details {
+    flex: 1;
+}
+
+h3 {
+    color: #6a0000;
+    margin: 0;
+}
+
+p {
+    margin: 4px 0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #ffe0e0;
+    color: #6a0000;
+    padding: 6px;
+    margin: 4px;
+    text-align: center;
+    width: calc(50% - 8px); /* Deux éléments par ligne */
+}
+
+.contact-info p, .contact-info a {
+    color: #6a0000;
+    display: block;
+    text-decoration: none;
+}

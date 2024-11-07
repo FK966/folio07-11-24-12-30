@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Formulaire d'inscription</h1>
+        <form action="#" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="age">Âge :</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <label for="genre">Genre :</label>
+            <select id="genre" name="genre">
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+                <option value="autre">Autre</option>
+            </select>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    <a href="../index.html">retour au sommaire</a>
+</body>
+</html>
